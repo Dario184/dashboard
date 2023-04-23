@@ -15,6 +15,12 @@ model users {
 }
 
 model posts {
-  id        Int     @id @default(autoincrement())
-  
+  id Int @id @default(autoincrement())
+}
+
+//create a model for a user group
+
+model group {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(20)
 }
