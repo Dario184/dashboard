@@ -24,3 +24,8 @@ model group {
   id   Int    @id @default(autoincrement())
   name String @db.VarChar(20)
 }
+
+model row{
+  id  Int @id @default(autoincrement())
+  name String @db.VarChar(20)
+}

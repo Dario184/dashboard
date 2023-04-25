@@ -1,5 +1,4 @@
 import { Card, Title, Text } from '@tremor/react';
-import Search from './search';
 
 export const dynamic = 'force-dynamic';
 
@@ -11,10 +10,7 @@ export default async function IndexPage() {
       <Text>
         A list of users retrieved from a MySQL database
       </Text>
-      <Search />
-      <Card className="mt-6">
-        {/* <UsersTable users={users} /> */}
-      </Card>
+      
     </main>
   );
 }
